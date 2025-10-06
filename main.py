@@ -54,6 +54,7 @@ async def maintenance_loop():
             mt_now = {}
             exclude_set = load_exclude()
             id_to_symbol = {}
+            mt_messages = []
             for pair in pairs:
                 symbol = pair["id"]
                 symbol_name = pair.get("description", symbol.upper())
@@ -71,14 +72,16 @@ async def maintenance_loop():
                 if is_mt == 1 and prev_status != 1:
                     msg = f"🚨 <b>{symbol_name}</b> masuk maintenance pada {now}"
                     print(msg)
-                    await send_telegram(msg)
+                    mt_messages.append(msg)
                     mt_now[symbol] = {"status": 1, "since": now, "description": symbol_name}
                 elif is_mt == 0 and prev_status == 1:
                     msg = f"✅ <b>{symbol_name}</b> keluar maintenance pada {now}"
                     print(msg)
-                    await send_telegram(msg)
+                    mt_messages.append(msg)
                 elif is_mt == 1 and prev_status == 1:
                     mt_now[symbol] = last_status[symbol]
+            if mt_messages:
+                await send_telegram("\n".join(mt_messages))
             save_last_status(mt_now)
             last_status = mt_now
         except Exception as e:
