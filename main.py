@@ -10,13 +10,13 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 TOKEN_BOT = os.environ.get("TOKEN_BOT")
 CHAT_ID = os.environ.get("CHAT_ID")
-CHECK_INTERVAL = 1
+CHECK_INTERVAL = 10
 MT_STATUS_FILE = "mt_status.json"
 EXCLUDE_FILE = "exclude.json"
 WIB = pytz.timezone('Asia/Jakarta')
 
 def get_pairs():
-    url = "https://indodax.com/api/pairs_v2"
+    url = "https://indodax.com/api/pairs"
     r = requests.get(url, timeout=5)
     r.raise_for_status()
     return r.json()
