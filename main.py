@@ -10,7 +10,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 TOKEN_BOT = os.environ.get("TOKEN_BOT")
 CHAT_ID = os.environ.get("CHAT_ID")
-CHECK_INTERVAL = 10
+CHECK_INTERVAL = 1
 MT_STATUS_FILE = "mt_status.json"
 EXCLUDE_FILE = "exclude.json"
 WIB = pytz.timezone('Asia/Jakarta')
