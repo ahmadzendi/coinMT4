@@ -1,4 +1,9 @@
 {
+  "algoidr": {
+    "status": 1,
+    "since": "2025-09-26 09:19:04",
+    "description": "ALGO/IDR"
+  },
   "bcdidr": {
     "status": 1,
     "since": "1945-08-17 10:00:00",
@@ -8,6 +13,11 @@
     "status": 1,
     "since": "1945-08-17 10:00:00",
     "description": "BOTX/IDR"
+  },
+  "catiidr": {
+    "status": 1,
+    "since": "2025-09-29 22:18:27",
+    "description": "CATI/IDR"
   },
   "celoidr": {
     "status": 1,
@@ -19,6 +29,11 @@
     "since": "1945-08-17 10:00:00",
     "description": "CKB/IDR"
   },
+  "dogsidr": {
+    "status": 1,
+    "since": "2025-09-29 22:18:28",
+    "description": "DOGS/IDR"
+  },
   "ftmidr": {
     "status": 1,
     "since": "2025-08-18 16:17:57",
@@ -28,6 +43,11 @@
     "status": 1,
     "since": "1945-08-17 10:00:00",
     "description": "GXC/IDR"
+  },
+  "hmstridr": {
+    "status": 1,
+    "since": "2025-09-29 22:18:29",
+    "description": "HMSTR/IDR"
   },
   "iotaidr": {
     "status": 1,
@@ -44,20 +64,15 @@
     "since": "1945-08-17 10:00:00",
     "description": "MTL/IDR"
   },
-  "neorpidr": {
+  "slerfidr": {
     "status": 1,
-    "since": "1945-08-17 10:00:00",
-    "description": "NEOIDR/IDR"
+    "since": "2025-09-29 15:56:11",
+    "description": "SLERF/IDR"
   },
-  "tiaidr": {
+  "tonidr": {
     "status": 1,
-    "since": "1945-08-17 10:00:00",
-    "description": "TIA/IDR"
-  },
-  "vexidr": {
-    "status": 1,
-    "since": "1945-08-17 10:00:00",
-    "description": "VEX/IDR"
+    "since": "2025-09-29 22:18:29",
+    "description": "TON/IDR"
   },
   "vsysidr": {
     "status": 1,
@@ -73,5 +88,10 @@
     "status": 1,
     "since": "1945-08-17 10:00:00",
     "description": "XTZ/IDR"
+  },
+  "zilidr": {
+    "status": 1,
+    "since": "2025-09-24 21:02:23",
+    "description": "ZIL/IDR"
   }
 }
