@@ -14,11 +14,6 @@
     "since": "1945-08-17 10:00:00",
     "description": "BOTX/IDR"
   },
-  "catiidr": {
-    "status": 1,
-    "since": "2025-09-29 22:18:27",
-    "description": "CATI/IDR"
-  },
   "celoidr": {
     "status": 1,
     "since": "1945-08-17 10:00:00",
@@ -28,11 +23,6 @@
     "status": 1,
     "since": "1945-08-17 10:00:00",
     "description": "CKB/IDR"
-  },
-  "dogsidr": {
-    "status": 1,
-    "since": "2025-09-29 22:18:28",
-    "description": "DOGS/IDR"
   },
   "ftmidr": {
     "status": 1,
@@ -44,20 +34,15 @@
     "since": "1945-08-17 10:00:00",
     "description": "GXC/IDR"
   },
-  "hmstridr": {
-    "status": 1,
-    "since": "2025-09-29 22:18:29",
-    "description": "HMSTR/IDR"
-  },
   "iotaidr": {
     "status": 1,
     "since": "1945-08-17 10:00:00",
     "description": "IOTA/IDR"
   },
-  "kinusdt": {
+    "ksmidr": {
     "status": 1,
-    "since": "2025-09-20 11:40:48",
-    "description": "KIN/USDT"
+    "since": "2025-10-07 14:01:42",
+    "description": "KSM/IDR"
   },
   "mtlidr": {
     "status": 1,
@@ -68,11 +53,6 @@
     "status": 1,
     "since": "2025-09-29 15:56:11",
     "description": "SLERF/IDR"
-  },
-  "tonidr": {
-    "status": 1,
-    "since": "2025-09-29 22:18:29",
-    "description": "TON/IDR"
   },
   "vsysidr": {
     "status": 1,
